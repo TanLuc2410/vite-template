@@ -80,4 +80,127 @@ h6 {
   isolation: isolate;
 }
 
-/* General Style */
+/* CSS VARIABLES */
+:root {
+  --size-100: 0.5rem;
+  --size-200: 0.8rem;
+  --size-300: 1rem;
+  --size-400: 1.5rem;
+  --size-500: 2rem;
+  --size-600: 2.5rem;
+  --size-700: 3rem;
+  --size-800: 3.5rem;
+  --size-900: 4rem;
+  --size-1000: 5rem;
+  --size-1100: 6rem;
+}
+
+/* GENERAL STYLE */
+
+/* Utilities Classes */
+.container {
+  --max-width: 1140px;
+  --container-padding: 1rem;
+
+  width: min(calc(100% - var(--container-padding) * 2), var(--max-width));
+  margin-inline: auto;
+  padding: var(--container-padding);
+}
+.m-block-300 {
+  margin-block: var(--size-300);
+}
+.m-block-400 {
+  margin-block: var(--size-400);
+}
+.m-block-start-300 {
+  margin-block-start: var(--size-300);
+}
+.m-block-start-400 {
+  margin-block-start: var(--size-400);
+}
+.m-block-end-300 {
+  margin-block-end: var(--size-300);
+}
+.m-block-end-400 {
+  margin-block-end: var(--size-400);
+}
+.m-inline-300 {
+  margin-inline: var(--size-300);
+}
+.m-inline-400 {
+  margin-inline: var(--size-400);
+}
+.m-inline-start-300 {
+  margin-inline-start: var(--size-300);
+}
+.m-inline-start-400 {
+  margin-inline-start: var(--size-400);
+}
+.m-inline-end-300 {
+  margin-inline-end: var(--size-300);
+}
+.m-inline-end-400 {
+  margin-inline-end: var(--size-400);
+}
+
+.p-block-300 {
+  padding-block: var(--size-300);
+}
+.p-block-400 {
+  padding-block: var(--size-400);
+}
+.p-block-start-300 {
+  padding-block-start: var(--size-300);
+}
+.p-block-start-400 {
+  padding-block-start: var(--size-400);
+}
+.p-block-end-300 {
+  padding-block-end: var(--size-300);
+}
+.p-block-end-400 {
+  padding-block-end: var(--size-400);
+}
+.p-inline-300 {
+  padding-inline: var(--size-300);
+}
+.p-inline-400 {
+  padding-inline: var(--size-400);
+}
+.p-inline-start-300 {
+  padding-inline-start: var(--size-300);
+}
+.p-inline-start-400 {
+  padding-inline-start: var(--size-400);
+}
+.p-inline-end-300 {
+  padding-inline-end: var(--size-300);
+}
+.p-inline-end-400 {
+  padding-inline-end: var(--size-400);
+}
+/* Media Queries */
+@media (width >= 40rem) {
+  /* 640px */
+  /* Styles */
+}
+
+@media (width >= 48rem) {
+  /* 768px */
+  /* Styles */
+}
+
+@media (width >= 64rem) {
+  /* 1024px */
+  /* Styles */
+}
+
+@media (width >= 80rem) {
+  /* 1280px */
+  /* Styles */
+}
+
+@media (width >= 96rem) {
+  /* 1536px  */
+  /* Styles */
+}
